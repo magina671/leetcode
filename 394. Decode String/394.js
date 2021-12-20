@@ -28,7 +28,7 @@ var decodeString = function (s) {
   return res[0];
 };
 
-// decodeString("q 1[a1[b1[c]b]a]q"); //qabcbaq
+// decodeString("q1[a1[b1[c]b]a]q"); //qabcbaq
 // decodeString("3[z]2[2[y]pq4[2[jk]e1[f]]]ef"); // "zzzyypqjkjkefjkjkefjkjkefjkjkefyypqjkjkefjkjkefjkjkefjkjkefef"
 // decodeString("3[a2[c]]"); // accaccacc
 // decodeString("2[abc]3[xy]ef"); //abcabcxyxyxyef
