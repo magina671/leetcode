@@ -6,7 +6,6 @@ var calPoints = function (ops) {
   const nums = [];
 
   ops.forEach((item) => {
-    console.log(item);
     switch (item) {
       case "C":
         nums.pop();
@@ -21,7 +20,6 @@ var calPoints = function (ops) {
         nums.push(Number(item));
         break;
     }
-    console.log("nums", nums);
   });
 
   return nums.reduce((acc, item) => {
