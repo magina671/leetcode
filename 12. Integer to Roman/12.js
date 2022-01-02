@@ -52,7 +52,7 @@
 //   I: 1,
 // };
 
-const romanMatrix = [
+const _romanMatrix = [
   [1000, "M"],
   [900, "CM"],
   [500, "D"],
